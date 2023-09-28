@@ -5,42 +5,48 @@
 #include <string.h>
 #include <unistd.h>
 
-#define MAX_LINE 1024
+const int MAX_LENGTH_OF_LINE = 30;
+const int MAX_AMOUNT_OF_LINES = 100;
+const int FILENAME_SIZE = 10;
 
-int main(int argc, char *argv[]) {
-  char *filename = argv[0];
+void reverse_lines(char* lines) {
+  int len = strlen(lines);
+  for (int i = 0; i < len / 2; i++) {
+    char temp = lines[i];
+    lines[i] = lines[len - i - 1];
+    lines[len - i - 1] = temp;
+  }
+}
 
-  int file = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+void write_lines_to_file(char lines[MAX_AMOUNT_OF_LINES][MAX_LENGTH_OF_LINE], char filename[FILENAME_SIZE]) {
+  FILE* file = open(filename, "w");
 
-  if (file == -1) {
-    printf("Не удалось открыть файл\n");
-    return 1;
-  } else {
-    printf("Файл открыт успешно\n");
+  if (file == NULL) {
+    printf("file wasn't open");
+    exit(-1);
   }
 
-  char line[MAX_LINE];
-  ssize_t bytesRead;
-
-  while ((bytesRead = read(STDIN_FILENO, line, sizeof(line))) > 2) {
-    if (strcmp(line, "\n") == 0) {
-      continue;
-    }
-    /*
-    int len = strlen(line) - 1;
-    for (int i = 0; i < len / 2; i++) {
-      char temp = line[i];
-      line[i] = line[len - i - 1];
-      line[len - i - 1] = temp;
-    }
-    */
-
-        if (strlen(line) > 2) {
-      write(file, line, bytesRead);
-    }
+  for (int index_of_line = 0; index_of_line < MAX_AMOUNT_OF_LINES && lines[index_of_line][0] != EOF; ++index_of_line) {
+    fprintf(file, "%s\n", lines[index_of_line]);
+    printf("%s\n", lines[index_of_line]);
   }
 
-  close(file);
+  fclose(file);
+}
 
-  return 0;
+int main() {
+  char filename[FILENAME_SIZE];
+  read(STDIN_FILENO, &filename, sizeof(filename));
+
+  char lines[MAX_AMOUNT_OF_LINES][MAX_LENGTH_OF_LINE];
+  for (int amount_of_line_from_input = 0;
+       amount_of_line_from_input < MAX_AMOUNT_OF_LINES;
+       amount_of_line_from_input++) {
+    read(STDIN_FILENO, lines[amount_of_line_from_input],
+         sizeof(lines[amount_of_line_from_input]));
+  }
+
+  reverse_lines(lines);
+
+  write_lines_to_file(lines, filename);
 }

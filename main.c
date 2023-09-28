@@ -1,90 +1,123 @@
-#include <fcntl.h>
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <unistd.h>
 
-void error_processing(bool exception, char *bug_report) {
-    if (exception) {
-        write(STDERR_FILENO, bug_report, strlen(bug_report) * sizeof(char));
-        exit(-1);
-    }
+#include "sys/wait.h"
+
+const int MAX_LENGTH_OF_LINE = 30;
+const int MAX_AMOUNT_OF_LINES = 100;
+const int FILENAME_SIZE = 10;
+
+void handle_error(int result_of_statement) {
+  if (result_of_statement == -1) {
+    perror("error with creating: ");
+    exit(-1);
+  }
+}
+
+pid_t try_to_create_proccess() {
+  pid_t proccess_id = fork();
+  handle_error(proccess_id);
+  return proccess_id;
 }
 
 int main() {
-    int pipe1[2];
-    int pipe2[2];
+  char file_first_name[FILENAME_SIZE];
+  char file_second_name[FILENAME_SIZE];
 
-    error_processing((pipe(pipe1) == -1), "Error with opening pipe 1");
-    error_processing((pipe(pipe2) == -1), "Error with opening pipe 2");
+  char lines[MAX_AMOUNT_OF_LINES][MAX_LENGTH_OF_LINE];
 
-    char name_file_first[10];
-    char name_file_second[10];
+  printf("Имя первого файла: ");
+  scanf("%s", &file_first_name);
+  printf("Имя второго файла: ");
+  scanf("%s", &file_second_name);
 
+  int amount_lines;
+  printf("Теперь введите количество строк. Оно должно быть меньше %d :",
+         MAX_AMOUNT_OF_LINES);
+  scanf("%d", &amount_lines);
 
-    error_processing(read(STDIN_FILENO, name_file_first, sizeof(name_file_first)) == -1,
-                     "error with reading file 1");
-    error_processing(read(STDIN_FILENO, name_file_second, sizeof(name_file_second)) == -1,
-                     "error with reading file 2");
+  printf("Теперь вводите сами строки.\n");
 
-    for (size_t i = 0; i < sizeof(name_file_first); i++) {
-        if (name_file_first[i] == '\n') {
-            name_file_first[i] = '\0';
-            break;
-        }
-    }
+  char lines_for_first_proccess[MAX_AMOUNT_OF_LINES][MAX_LENGTH_OF_LINE];
+  char lines_for_second_proccess[MAX_AMOUNT_OF_LINES][MAX_LENGTH_OF_LINE];
 
-    for (size_t i = 0; i < sizeof(name_file_second); i++) {
-        if (name_file_second[i] == '\n') {
-            name_file_second[i] = '\0';
-            break;
-        }
-    }
+  int amount_of_lines_for_first_proccess = 0;
+  int amount_of_lines_for_second_proccess = 0;
 
-    pid_t channel_1 = fork();
-    error_processing((channel_1 == -1), "channel 1 doesnt work");
-
-    if (channel_1 == 0) {
-        close(pipe1[1]);
-        close(pipe2[0]);
-        close(pipe2[1]);
-        error_processing(dup2(pipe1[0], STDIN_FILENO) < 0,
-                         "dup2 doesnt work with channel 1");
-        error_processing((execl("child", name_file_first, NULL) < 0),
-                         "Дочерний не воркает");
+  for (int index_of_current_line = 0; index_of_current_line < amount_lines;
+       index_of_current_line++) {
+    if (rand() % 100 <= 80) {
+      scanf("%s",
+            lines_for_first_proccess[amount_of_lines_for_first_proccess++]);
     } else {
-
-        pid_t channel_2 = fork();
-        error_processing((channel_2 == -1), "channel 2 doesnt work");
-
-        if (channel_2 == 0) {
-            close(pipe2[1]);
-            close(pipe1[0]);
-            close(pipe1[1]);
-            error_processing(dup2(pipe2[0], STDIN_FILENO) < 0,
-                             "dup2 doesnt work with channel 2");
-            error_processing((execl("child", name_file_second, NULL) < 0),
-                             "Дочерний не воркает");
-        } else {
-
-            close(pipe1[0]);  // Закрываем запись в pipe1
-            close(pipe2[0]);  // Закрываем запись в pipe2
-
-            char line[50];
-
-            while (scanf("%s", line) != EOF) {
-                line[strlen(line)] = '\n';
-                if (rand() % 100 < 80) {
-                    write(pipe1[1], line, strlen(line));
-                } else {
-                    write(pipe2[1], line, strlen(line));
-                }
-            }
-        }
+      scanf("%s",
+            lines_for_second_proccess[amount_of_lines_for_second_proccess++]);
     }
-    close(pipe1[1]);
-    close(pipe1[0]);
-    close(pipe2[1]);
-    close(pipe2[0]);
+  }
+
+  lines_for_first_proccess[amount_of_lines_for_first_proccess][0] = EOF;
+  lines_for_second_proccess[amount_of_lines_for_second_proccess][0] = EOF;
+
+  int pipe_for_first_child[2];
+
+  handle_error(pipe(pipe_for_first_child));
+
+  pid_t first_proccess_id = try_to_create_proccess();
+
+  if (first_proccess_id == 0) {
+    printf("First child has been started.\n");
+
+    close(pipe_for_first_child[1]);
+    dup2(pipe_for_first_child[0], STDIN_FILENO);
+    execl("./child", "./child", NULL);
+  } else {
+    printf("parent process\n");
+
+    close(pipe_for_first_child[0]);
+    write(pipe_for_first_child[1], &file_first_name, sizeof(file_first_name));
+
+    for (int current_line = 0; current_line < amount_of_lines_for_first_proccess;
+         ++current_line) {
+      write(pipe_for_first_child[1], &lines_for_first_proccess[current_line],
+            sizeof(lines_for_first_proccess[current_line]));
+    }
+    close(pipe_for_first_child[1]);
+    printf("Данные отправились в первый процесс");
+
+    wait(NULL);
+
+    printf("Первый процесс завершилась");
+  }
+
+  int pipe_for_second_child[2];
+
+  handle_error(pipe(pipe_for_second_child));
+
+  pid_t second_proccess_id = try_to_create_proccess();
+
+  if (second_proccess_id == 0) {
+    printf("Second child has been started.\n");
+
+    close(pipe_for_second_child[1]);
+    dup2(pipe_for_second_child[0], STDIN_FILENO);
+    execl("./child", "./child", NULL);
+  } else {
+    printf("parent process\n");
+
+    close(pipe_for_second_child[0]);
+    write(pipe_for_second_child[1], &file_second_name, sizeof(file_second_name));
+
+    for (int current_line = 0; current_line < amount_of_lines_for_second_proccess;
+         ++current_line) {
+      write(pipe_for_second_child[1], &lines_for_second_proccess[current_line],
+            sizeof(lines_for_second_proccess[current_line]));
+    }
+    close(pipe_for_second_child[1]);
+    printf("Данные отправились во второй процесс");
+
+    wait(NULL);
+
+    printf("Первый процесс завершилась");
+  }
 }
