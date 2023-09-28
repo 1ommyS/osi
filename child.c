@@ -10,9 +10,9 @@
 int main(int argc, char *argv[]) {
   char *filename = argv[0];
 
-  FILE *file = fopen(filename, "w+");
+  int file = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 
-  if (file == NULL) {
+  if (file == -1) {
     printf("Не удалось открыть файл\n");
     return 1;
   } else {
@@ -20,20 +20,27 @@ int main(int argc, char *argv[]) {
   }
 
   char line[MAX_LINE];
-  while (read(STDIN_FILENO, line, 10) > 2) {
+  ssize_t bytesRead;
+
+  while ((bytesRead = read(STDIN_FILENO, line, sizeof(line))) > 2) {
     if (strcmp(line, "\n") == 0) {
       continue;
     }
-
+    /*
     int len = strlen(line) - 1;
     for (int i = 0; i < len / 2; i++) {
       char temp = line[i];
       line[i] = line[len - i - 1];
       line[len - i - 1] = temp;
     }
-    if (strlen(line) > 2) fprintf(file, "%s", line);
+    */
+
+        if (strlen(line) > 2) {
+      write(file, line, bytesRead);
+    }
   }
-  close(STDIN_FILENO);
-  fclose(file);
+
+  close(file);
+
   return 0;
 }
