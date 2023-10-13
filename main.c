@@ -1,137 +1,146 @@
+#include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+#include <sys/time.h>
 
-#include "sys/wait.h"
+#define SIZE 9
 
-const int MAX_LENGTH_OF_LINE = 30;
-const int MAX_AMOUNT_OF_LINES = 100;
-const int FILENAME_SIZE = 10;
+// Structure to hold complex numbers
+typedef struct {
+  double real;
+  double imag;
+} Complex;
 
-void handle_error(int result_of_statement) {
-    if (result_of_statement == -1) {
-        perror("error with creating: ");
-        exit(-1);
-    }
+typedef struct {
+  Complex** matrix;
+  int rows;
+  int cols;
+} Matrix;
+
+typedef struct {
+  Matrix* matrix1;
+  Matrix* matrix2;
+  Matrix* result;
+  int startRow;
+  int endRow;
+} ThreadArgs;
+
+Matrix* createMatrix(int rows, int cols) {
+  Matrix* matrix = (Matrix*)malloc(sizeof(Matrix));
+  matrix->rows = rows;
+  matrix->cols = cols;
+  matrix->matrix = (Complex**)malloc(rows * sizeof(Complex*));
+  for (int i = 0; i < rows; i++) {
+    matrix->matrix[i] = (Complex*)malloc(cols * sizeof(Complex));
+  }
+  return matrix;
 }
 
-pid_t try_to_create_proccess() {
-    pid_t proccess_id = fork();
-    handle_error(proccess_id);
-    return proccess_id;
+// Function to free memory allocated for a matrix
+void freeMatrix(Matrix* matrix) {
+  for (int i = 0; i < matrix->rows; i++) {
+    free(matrix->matrix[i]);
+  }
+  free(matrix->matrix);
+  free(matrix);
 }
 
-int main() {
-    char file_first_name[FILENAME_SIZE];
-    char file_second_name[FILENAME_SIZE];
+// Function to multiply two complex numbers
+Complex multiplyComplex(Complex num1, Complex num2) {
+  Complex result;
+  result.real = num1.real * num2.real - num1.imag * num2.imag;
+  result.imag = num1.real * num2.imag + num1.imag * num2.real;
+  return result;
+}
 
-    char lines[MAX_AMOUNT_OF_LINES][MAX_LENGTH_OF_LINE];
-
-    printf("Имя первого файла: ");
-    scanf("%s", &file_first_name);
-    printf("Имя второго файла: ");
-    scanf("%s", &file_second_name);
-
-    int amount_lines;
-    printf("Теперь введите количество строк. Оно должно быть меньше %d : ",
-           MAX_AMOUNT_OF_LINES);
-    scanf("%d", &amount_lines);
-
-    printf("Теперь вводите сами строки.\n");
-
-    char lines_for_first_proccess[MAX_AMOUNT_OF_LINES][MAX_LENGTH_OF_LINE];
-    char lines_for_second_proccess[MAX_AMOUNT_OF_LINES][MAX_LENGTH_OF_LINE];
-
-    int amount_of_lines_for_first_proccess = 0;
-    int amount_of_lines_for_second_proccess = 0;
-
-    for (int index_of_current_line = 0; index_of_current_line < amount_lines;
-         index_of_current_line++) {
-        int rand = arc4random() % 100;
-        printf("Rand = %d\n", rand);
-        if (rand <= 80) {
-            scanf("%s",
-                  lines_for_first_proccess[amount_of_lines_for_first_proccess++]);
-        } else {
-            scanf("%s",
-                  lines_for_second_proccess[amount_of_lines_for_second_proccess++]);
-        }
+void* multiplyRow(void* arguments) {
+  ThreadArgs* args = (ThreadArgs*)arguments;
+  for (int i = args->startRow; i <= args->endRow; i++) {
+    for (int j = 0; j < args->matrix2->cols; j++) {
+      args->result->matrix[i][j] = (Complex){0, 0};
+      for (int k = 0; k < args->matrix1->cols; k++) {
+        Complex product = multiplyComplex(args->matrix1->matrix[i][k],
+                                          args->matrix2->matrix[k][j]);
+        args->result->matrix[i][j].real += product.real;
+        args->result->matrix[i][j].imag += product.imag;
+      }
     }
+  }
+  pthread_exit(NULL);
+}
+int main(int argc, char* argv[]) {
+  if (argc != 2) {
+    printf("Usage: %s <num_threads>\n", argv[0]);
+    return 1;
+  }
+  struct timeval start, end;
+  gettimeofday(&start, NULL);
 
-    lines_for_first_proccess[amount_of_lines_for_first_proccess][0] = EOF;
-    lines_for_second_proccess[amount_of_lines_for_second_proccess][0] = EOF;
+  int numThreads = atoi(argv[1]);
 
-    int pipe_for_first_child[2];
+  // Create matrices
+  Matrix* matrix1 = createMatrix(SIZE, SIZE);
+  Matrix* matrix2 = createMatrix(SIZE, SIZE);
+  Matrix* result = createMatrix(SIZE, SIZE);
 
-    handle_error(pipe(pipe_for_first_child));
-
-    pid_t first_proccess_id = try_to_create_proccess();
-
-    if (first_proccess_id == 0) {
-        printf("First child has been started.\n");
-
-        close(pipe_for_first_child[1]);
-        dup2(pipe_for_first_child[0], STDIN_FILENO);
-
-        char amount_lines_str[MAX_LENGTH_OF_LINE];
-        sprintf(amount_lines_str, "%d", amount_of_lines_for_first_proccess);
-
-        execl("child", amount_lines_str, NULL);
-        perror("мы не зашли в дочерний процесс #1");
-    } else {
-        printf("parent process\n");
-
-        close(pipe_for_first_child[0]);
-
-        write(pipe_for_first_child[1], &file_first_name, sizeof(file_first_name));
-
-        for (int current_line = 0;
-             current_line < amount_of_lines_for_first_proccess; ++current_line) {
-            write(pipe_for_first_child[1], &lines_for_first_proccess[current_line],
-                  sizeof(lines_for_first_proccess[current_line]));
-        }
-        close(pipe_for_first_child[1]);
-        printf("Данные отправились в первый процесс\n");
-
-        wait(NULL);
-
-        printf("Первый процесс завершилcя\n");
+  // Initialize matrices with random complex numbers
+  for (int i = 0; i < SIZE; i++) {
+    for (int j = 0; j < SIZE; j++) {
+      matrix1->matrix[i][j].real = (i + 1) * (j + 1);
+      matrix1->matrix[i][j].imag = (i + 1) * (j + 1);
+      matrix2->matrix[i][j].real = 2 * (i + 1) + 3 * (j + 1);
+      matrix2->matrix[i][j].imag = (i + 1) + (j + 1);
     }
+  }
 
-    int pipe_for_second_child[2];
+  // Create threads
+  pthread_t threads[numThreads];
+  ThreadArgs threadArgs[numThreads];
+  int rowsPerThread = SIZE / numThreads;
+  int remainingRows = SIZE % numThreads;
+  int startRow = 0;
+  int endRow = -1;
 
-    handle_error(pipe(pipe_for_second_child));
-
-    pid_t second_proccess_id = try_to_create_proccess();
-
-    if (second_proccess_id == 0) {
-        printf("First child has been started.\n");
-
-        close(pipe_for_second_child[1]);
-        dup2(pipe_for_second_child[0], STDIN_FILENO);
-
-        char amount_lines_str[MAX_LENGTH_OF_LINE];
-        sprintf(amount_lines_str, "%d", amount_of_lines_for_second_proccess);
-
-        execl("child", amount_lines_str, NULL);
-        perror("мы не зашли в дочерний процесс #2");
-    } else {
-        printf("parent process\n");
-
-        close(pipe_for_second_child[0]);
-
-        write(pipe_for_second_child[1], &file_second_name, sizeof(file_second_name));
-
-        for (int current_line = 0;
-             current_line < amount_of_lines_for_second_proccess; ++current_line) {
-            write(pipe_for_second_child[1], &lines_for_second_proccess[current_line],
-                  sizeof(lines_for_second_proccess[current_line]));
-        }
-        close(pipe_for_second_child[1]);
-        printf("Данные отправились во второй процесс\n");
-
-        wait(NULL);
-
-        printf("Второй процесс завершилcя\n");
+  for (int i = 0; i < numThreads; i++) {
+    startRow = endRow + 1;
+    endRow = startRow + rowsPerThread - 1;
+    if (remainingRows > 0) {
+      endRow++;
+      remainingRows--;
     }
+    
+    threadArgs[i].matrix1 = matrix1;
+    threadArgs[i].matrix2 = matrix2;
+    threadArgs[i].result = result;
+    threadArgs[i].startRow = startRow;
+    threadArgs[i].endRow = endRow;
+    pthread_create(&threads[i], NULL, multiplyRow, (void*)&threadArgs[i]);
+  }
+  for (int i = 0; i < numThreads; i++) {
+    pthread_join(threads[i], NULL);
+  }
+
+  // Print the result matrix
+  printf("Result:\n");
+  for (int i = 0; i < SIZE; i++) {
+    for (int j = 0; j < SIZE; j++) {
+      printf("%.2f + %.2fi\t", result->matrix[i][j].real,
+             result->matrix[i][j].imag);
+    }
+    printf("\n");
+  }
+
+  // Free memory
+  freeMatrix(matrix1);
+  freeMatrix(matrix2);
+  freeMatrix(result);
+
+  gettimeofday(&end, NULL);
+  double executionTime =
+      (end.tv_sec - start.tv_sec) * 1000.0;  // seconds to milliseconds
+  executionTime +=
+      (end.tv_usec - start.tv_usec) / 1000.0;  // microseconds to milliseconds
+  printf("Execution time: %.20f ms\n", executionTime);
+
+  return 0;
 }
