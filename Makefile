@@ -1,10 +1,9 @@
-
-all: clean main
-
+all: main child
 main: main.c
-	gcc -o main main.c -lpthread 
+	gcc -o main main.c
+
+child: child.c
+	gcc -o child child.c
 
 clean:
-	rm -f main
-
-.PHONY: clean
+	rm -f main child
