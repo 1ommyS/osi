@@ -1,6 +1,5 @@
 {
-    "C_Cpp.default.compilerPath": "/usr/bin/clang++",
     "files.associations": {
-        "string.h": "c"
+        "stat.h": "c"
     }
 }
