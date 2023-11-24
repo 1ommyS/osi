@@ -1,2 +1,6 @@
 build:
-secondlib g++ -o libTranslation.so -shared -fPIC translations.cpp g++ main.cpp -L. -lTranslation -o output export LD_LIBRARY_PATH=.
+	g++ -o libTer.so -shared -fPIC Ter.cpp
+	g++ -o libBin.so -shared -fPIC Bin.cpp
+	g++ main.cpp -o output
+clean:
+	rm -rf libBin.so libTer.so output
