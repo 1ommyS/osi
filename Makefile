@@ -1,10 +1,31 @@
+# Исходные файлы
+SRC = client.cpp server.cpp
 
-all: clean main
+# Объектные файлы
+OBJ = $(SRC:.cpp=.o)
 
-main: main.c
-	gcc -o main main.c -lpthread 
+# Выходной файл
+OUT = game
 
+# Компилятор и флаги
+CC = g++
+FLAGS = -g -Wall -lzmq -pthread
+
+# Правило по умолчанию
+default: $(OUT)
+
+# Правило для компиляции
+.cpp.o:
+	$(CC) $(FLAGS) -c $< -o $@
+
+# Правило для линковки
+$(OUT): $(OBJ)
+	$(CC) $(FLAGS) -o $(OUT) $(OBJ)
+
+# Правило для запуска игры
+run: $(OUT)
+	./$(OUT)
+
+# Правило для очистки
 clean:
-	rm -f main
-
-.PHONY: clean
+	rm -f $(OBJ) $(OUT)

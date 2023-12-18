@@ -1,6 +1,3 @@
 {
-    "C_Cpp.default.compilerPath": "/usr/bin/clang++",
-    "files.associations": {
-        "string.h": "c"
-    }
+    "cmake.sourceDirectory": "/Users/1ommy/Desktop/osi/zeromq-4.2.1"
 }

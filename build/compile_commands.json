@@ -1,0 +1,1514 @@
+[
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu11 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/tweetnacl.c.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tweetnacl.c",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tweetnacl.c",
+  "output": "CMakeFiles/libzmq.dir/src/tweetnacl.c.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/address.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/client.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/client.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/client.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/client.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/clock.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/clock.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/clock.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/clock.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/ctx.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ctx.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ctx.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/ctx.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/curve_client.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/curve_client.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/curve_client.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/curve_client.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/curve_server.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/curve_server.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/curve_server.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/curve_server.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/dealer.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dealer.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dealer.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/dealer.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/devpoll.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/devpoll.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/devpoll.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/devpoll.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/dgram.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dgram.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dgram.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/dgram.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/dist.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dist.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dist.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/dist.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/epoll.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/epoll.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/epoll.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/epoll.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/err.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/err.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/err.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/err.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/fq.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/fq.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/fq.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/fq.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/io_object.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/io_object.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/io_object.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/io_object.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/io_thread.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/io_thread.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/io_thread.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/io_thread.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/ip.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ip.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ip.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/ip.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/ipc_address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_address.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/ipc_address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/ipc_connecter.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_connecter.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_connecter.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/ipc_connecter.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/ipc_listener.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_listener.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_listener.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/ipc_listener.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/kqueue.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/kqueue.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/kqueue.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/kqueue.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/lb.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/lb.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/lb.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/lb.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/mailbox.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mailbox.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mailbox.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/mailbox.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/mailbox_safe.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mailbox_safe.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mailbox_safe.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/mailbox_safe.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/mechanism.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mechanism.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mechanism.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/mechanism.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/metadata.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/metadata.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/metadata.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/metadata.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/msg.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/msg.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/msg.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/msg.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/mtrie.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mtrie.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mtrie.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/mtrie.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/object.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/object.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/object.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/object.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/options.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/options.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/options.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/options.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/own.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/own.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/own.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/own.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/null_mechanism.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/null_mechanism.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/null_mechanism.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/null_mechanism.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/pair.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pair.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pair.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/pair.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/pgm_receiver.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_receiver.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_receiver.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/pgm_receiver.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/pgm_sender.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_sender.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_sender.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/pgm_sender.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/pgm_socket.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_socket.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_socket.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/pgm_socket.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/pipe.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pipe.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pipe.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/pipe.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/plain_client.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/plain_client.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/plain_client.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/plain_client.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/plain_server.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/plain_server.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/plain_server.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/plain_server.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/poll.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/poll.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/poll.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/poll.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/poller_base.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/poller_base.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/poller_base.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/poller_base.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/pollset.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pollset.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pollset.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/pollset.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/precompiled.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/precompiled.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/precompiled.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/precompiled.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/proxy.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/proxy.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/proxy.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/proxy.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/pub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pub.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/pub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/pull.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pull.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pull.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/pull.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/push.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/push.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/push.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/push.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/random.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/random.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/random.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/random.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/raw_encoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/raw_encoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/raw_encoder.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/raw_encoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/raw_decoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/raw_decoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/raw_decoder.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/raw_decoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/reaper.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/reaper.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/reaper.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/reaper.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/rep.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/rep.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/rep.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/rep.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/req.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/req.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/req.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/req.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/router.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/router.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/router.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/router.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/select.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/select.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/select.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/select.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/server.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/server.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/server.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/server.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/session_base.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/session_base.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/session_base.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/session_base.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/signaler.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/signaler.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/signaler.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/signaler.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/socket_base.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socket_base.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socket_base.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/socket_base.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/socks.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socks.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socks.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/socks.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/socks_connecter.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socks_connecter.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socks_connecter.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/socks_connecter.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/stream.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/stream.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/stream.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/stream.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/stream_engine.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/stream_engine.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/stream_engine.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/stream_engine.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/sub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/sub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/sub.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/sub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/tcp.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/tcp.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/tcp_address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_address.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/tcp_address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/tcp_connecter.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_connecter.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_connecter.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/tcp_connecter.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/tcp_listener.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_listener.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_listener.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/tcp_listener.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/thread.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/thread.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/thread.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/thread.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/trie.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/trie.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/trie.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/trie.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/v1_decoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v1_decoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v1_decoder.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/v1_decoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/v1_encoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v1_encoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v1_encoder.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/v1_encoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/v2_decoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v2_decoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v2_decoder.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/v2_decoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/v2_encoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v2_encoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v2_encoder.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/v2_encoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/xpub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/xpub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/xpub.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/xpub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/xsub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/xsub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/xsub.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/xsub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/zmq.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/zmq.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/zmq.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/zmq.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/zmq_utils.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/zmq_utils.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/zmq_utils.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/zmq_utils.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/decoder_allocators.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/decoder_allocators.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/decoder_allocators.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/decoder_allocators.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/socket_poller.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socket_poller.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socket_poller.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/socket_poller.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/timers.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/timers.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/timers.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/timers.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/radio.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/radio.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/radio.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/radio.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/dish.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dish.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dish.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/dish.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/udp_engine.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/udp_engine.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/udp_engine.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/udp_engine.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/udp_address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/udp_address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/udp_address.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/udp_address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/scatter.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/scatter.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/scatter.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/scatter.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DDLL_EXPORT -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -Dlibzmq_EXPORTS -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/libzmq.dir/src/gather.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/gather.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/gather.cpp",
+  "output": "CMakeFiles/libzmq.dir/src/gather.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu11 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/tweetnacl.c.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tweetnacl.c",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tweetnacl.c",
+  "output": "CMakeFiles/libzmq-static.dir/src/tweetnacl.c.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/address.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/client.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/client.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/client.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/client.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/clock.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/clock.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/clock.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/clock.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/ctx.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ctx.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ctx.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/ctx.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/curve_client.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/curve_client.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/curve_client.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/curve_client.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/curve_server.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/curve_server.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/curve_server.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/curve_server.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/dealer.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dealer.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dealer.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/dealer.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/devpoll.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/devpoll.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/devpoll.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/devpoll.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/dgram.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dgram.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dgram.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/dgram.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/dist.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dist.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dist.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/dist.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/epoll.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/epoll.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/epoll.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/epoll.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/err.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/err.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/err.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/err.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/fq.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/fq.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/fq.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/fq.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/io_object.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/io_object.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/io_object.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/io_object.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/io_thread.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/io_thread.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/io_thread.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/io_thread.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/ip.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ip.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ip.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/ip.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/ipc_address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_address.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/ipc_address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/ipc_connecter.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_connecter.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_connecter.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/ipc_connecter.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/ipc_listener.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_listener.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/ipc_listener.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/ipc_listener.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/kqueue.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/kqueue.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/kqueue.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/kqueue.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/lb.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/lb.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/lb.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/lb.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/mailbox.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mailbox.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mailbox.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/mailbox.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/mailbox_safe.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mailbox_safe.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mailbox_safe.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/mailbox_safe.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/mechanism.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mechanism.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mechanism.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/mechanism.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/metadata.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/metadata.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/metadata.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/metadata.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/msg.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/msg.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/msg.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/msg.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/mtrie.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mtrie.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/mtrie.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/mtrie.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/object.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/object.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/object.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/object.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/options.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/options.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/options.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/options.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/own.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/own.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/own.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/own.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/null_mechanism.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/null_mechanism.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/null_mechanism.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/null_mechanism.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/pair.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pair.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pair.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/pair.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/pgm_receiver.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_receiver.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_receiver.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/pgm_receiver.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/pgm_sender.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_sender.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_sender.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/pgm_sender.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/pgm_socket.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_socket.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pgm_socket.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/pgm_socket.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/pipe.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pipe.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pipe.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/pipe.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/plain_client.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/plain_client.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/plain_client.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/plain_client.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/plain_server.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/plain_server.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/plain_server.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/plain_server.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/poll.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/poll.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/poll.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/poll.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/poller_base.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/poller_base.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/poller_base.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/poller_base.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/pollset.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pollset.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pollset.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/pollset.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/precompiled.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/precompiled.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/precompiled.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/precompiled.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/proxy.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/proxy.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/proxy.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/proxy.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/pub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pub.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/pub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/pull.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pull.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/pull.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/pull.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/push.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/push.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/push.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/push.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/random.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/random.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/random.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/random.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/raw_encoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/raw_encoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/raw_encoder.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/raw_encoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/raw_decoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/raw_decoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/raw_decoder.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/raw_decoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/reaper.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/reaper.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/reaper.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/reaper.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/rep.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/rep.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/rep.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/rep.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/req.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/req.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/req.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/req.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/router.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/router.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/router.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/router.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/select.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/select.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/select.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/select.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/server.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/server.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/server.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/server.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/session_base.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/session_base.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/session_base.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/session_base.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/signaler.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/signaler.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/signaler.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/signaler.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/socket_base.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socket_base.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socket_base.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/socket_base.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/socks.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socks.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socks.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/socks.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/socks_connecter.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socks_connecter.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socks_connecter.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/socks_connecter.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/stream.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/stream.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/stream.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/stream.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/stream_engine.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/stream_engine.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/stream_engine.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/stream_engine.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/sub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/sub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/sub.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/sub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/tcp.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/tcp.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/tcp_address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_address.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/tcp_address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/tcp_connecter.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_connecter.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_connecter.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/tcp_connecter.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/tcp_listener.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_listener.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/tcp_listener.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/tcp_listener.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/thread.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/thread.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/thread.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/thread.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/trie.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/trie.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/trie.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/trie.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/v1_decoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v1_decoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v1_decoder.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/v1_decoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/v1_encoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v1_encoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v1_encoder.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/v1_encoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/v2_decoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v2_decoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v2_decoder.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/v2_decoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/v2_encoder.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v2_encoder.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/v2_encoder.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/v2_encoder.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/xpub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/xpub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/xpub.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/xpub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/xsub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/xsub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/xsub.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/xsub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/zmq.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/zmq.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/zmq.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/zmq.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/zmq_utils.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/zmq_utils.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/zmq_utils.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/zmq_utils.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/decoder_allocators.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/decoder_allocators.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/decoder_allocators.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/decoder_allocators.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/socket_poller.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socket_poller.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/socket_poller.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/socket_poller.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/timers.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/timers.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/timers.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/timers.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/radio.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/radio.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/radio.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/radio.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/dish.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dish.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/dish.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/dish.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/udp_engine.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/udp_engine.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/udp_engine.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/udp_engine.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/udp_address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/udp_address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/udp_address.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/udp_address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/scatter.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/scatter.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/scatter.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/scatter.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -DZMQ_STATIC -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/libzmq-static.dir/src/gather.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/src/gather.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/src/gather.cpp",
+  "output": "CMakeFiles/libzmq-static.dir/src/gather.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_ancillaries.dir/test_ancillaries.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_ancillaries.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_ancillaries.cpp",
+  "output": "tests/CMakeFiles/test_ancillaries.dir/test_ancillaries.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_system.dir/test_system.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_system.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_system.cpp",
+  "output": "tests/CMakeFiles/test_system.dir/test_system.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_pair_inproc.dir/test_pair_inproc.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_pair_inproc.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_pair_inproc.cpp",
+  "output": "tests/CMakeFiles/test_pair_inproc.dir/test_pair_inproc.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_pair_tcp.dir/test_pair_tcp.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_pair_tcp.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_pair_tcp.cpp",
+  "output": "tests/CMakeFiles/test_pair_tcp.dir/test_pair_tcp.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_reqrep_inproc.dir/test_reqrep_inproc.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_reqrep_inproc.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_reqrep_inproc.cpp",
+  "output": "tests/CMakeFiles/test_reqrep_inproc.dir/test_reqrep_inproc.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_reqrep_tcp.dir/test_reqrep_tcp.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_reqrep_tcp.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_reqrep_tcp.cpp",
+  "output": "tests/CMakeFiles/test_reqrep_tcp.dir/test_reqrep_tcp.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_hwm.dir/test_hwm.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_hwm.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_hwm.cpp",
+  "output": "tests/CMakeFiles/test_hwm.dir/test_hwm.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_hwm_pubsub.dir/test_hwm_pubsub.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_hwm_pubsub.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_hwm_pubsub.cpp",
+  "output": "tests/CMakeFiles/test_hwm_pubsub.dir/test_hwm_pubsub.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_reqrep_device.dir/test_reqrep_device.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_reqrep_device.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_reqrep_device.cpp",
+  "output": "tests/CMakeFiles/test_reqrep_device.dir/test_reqrep_device.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_sub_forward.dir/test_sub_forward.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_sub_forward.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_sub_forward.cpp",
+  "output": "tests/CMakeFiles/test_sub_forward.dir/test_sub_forward.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_invalid_rep.dir/test_invalid_rep.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_invalid_rep.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_invalid_rep.cpp",
+  "output": "tests/CMakeFiles/test_invalid_rep.dir/test_invalid_rep.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_msg_flags.dir/test_msg_flags.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_msg_flags.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_msg_flags.cpp",
+  "output": "tests/CMakeFiles/test_msg_flags.dir/test_msg_flags.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_msg_ffn.dir/test_msg_ffn.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_msg_ffn.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_msg_ffn.cpp",
+  "output": "tests/CMakeFiles/test_msg_ffn.dir/test_msg_ffn.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_connect_resolve.dir/test_connect_resolve.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_connect_resolve.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_connect_resolve.cpp",
+  "output": "tests/CMakeFiles/test_connect_resolve.dir/test_connect_resolve.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_immediate.dir/test_immediate.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_immediate.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_immediate.cpp",
+  "output": "tests/CMakeFiles/test_immediate.dir/test_immediate.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_last_endpoint.dir/test_last_endpoint.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_last_endpoint.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_last_endpoint.cpp",
+  "output": "tests/CMakeFiles/test_last_endpoint.dir/test_last_endpoint.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_term_endpoint.dir/test_term_endpoint.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_term_endpoint.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_term_endpoint.cpp",
+  "output": "tests/CMakeFiles/test_term_endpoint.dir/test_term_endpoint.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_router_mandatory.dir/test_router_mandatory.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_router_mandatory.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_router_mandatory.cpp",
+  "output": "tests/CMakeFiles/test_router_mandatory.dir/test_router_mandatory.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_probe_router.dir/test_probe_router.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_probe_router.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_probe_router.cpp",
+  "output": "tests/CMakeFiles/test_probe_router.dir/test_probe_router.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_stream.dir/test_stream.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream.cpp",
+  "output": "tests/CMakeFiles/test_stream.dir/test_stream.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_stream_empty.dir/test_stream_empty.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream_empty.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream_empty.cpp",
+  "output": "tests/CMakeFiles/test_stream_empty.dir/test_stream_empty.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_stream_disconnect.dir/test_stream_disconnect.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream_disconnect.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream_disconnect.cpp",
+  "output": "tests/CMakeFiles/test_stream_disconnect.dir/test_stream_disconnect.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_disconnect_inproc.dir/test_disconnect_inproc.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_disconnect_inproc.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_disconnect_inproc.cpp",
+  "output": "tests/CMakeFiles/test_disconnect_inproc.dir/test_disconnect_inproc.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_unbind_inproc.dir/test_unbind_inproc.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_unbind_inproc.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_unbind_inproc.cpp",
+  "output": "tests/CMakeFiles/test_unbind_inproc.dir/test_unbind_inproc.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_unbind_wildcard.dir/test_unbind_wildcard.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_unbind_wildcard.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_unbind_wildcard.cpp",
+  "output": "tests/CMakeFiles/test_unbind_wildcard.dir/test_unbind_wildcard.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_ctx_options.dir/test_ctx_options.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_ctx_options.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_ctx_options.cpp",
+  "output": "tests/CMakeFiles/test_ctx_options.dir/test_ctx_options.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_ctx_destroy.dir/test_ctx_destroy.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_ctx_destroy.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_ctx_destroy.cpp",
+  "output": "tests/CMakeFiles/test_ctx_destroy.dir/test_ctx_destroy.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_security_null.dir/test_security_null.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_security_null.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_security_null.cpp",
+  "output": "tests/CMakeFiles/test_security_null.dir/test_security_null.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_security_plain.dir/test_security_plain.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_security_plain.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_security_plain.cpp",
+  "output": "tests/CMakeFiles/test_security_plain.dir/test_security_plain.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_security_curve.dir/test_security_curve.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_security_curve.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_security_curve.cpp",
+  "output": "tests/CMakeFiles/test_security_curve.dir/test_security_curve.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_iov.dir/test_iov.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_iov.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_iov.cpp",
+  "output": "tests/CMakeFiles/test_iov.dir/test_iov.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_spec_req.dir/test_spec_req.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_req.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_req.cpp",
+  "output": "tests/CMakeFiles/test_spec_req.dir/test_spec_req.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_spec_rep.dir/test_spec_rep.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_rep.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_rep.cpp",
+  "output": "tests/CMakeFiles/test_spec_rep.dir/test_spec_rep.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_spec_dealer.dir/test_spec_dealer.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_dealer.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_dealer.cpp",
+  "output": "tests/CMakeFiles/test_spec_dealer.dir/test_spec_dealer.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_spec_router.dir/test_spec_router.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_router.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_router.cpp",
+  "output": "tests/CMakeFiles/test_spec_router.dir/test_spec_router.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_spec_pushpull.dir/test_spec_pushpull.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_pushpull.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_spec_pushpull.cpp",
+  "output": "tests/CMakeFiles/test_spec_pushpull.dir/test_spec_pushpull.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_req_correlate.dir/test_req_correlate.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_req_correlate.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_req_correlate.cpp",
+  "output": "tests/CMakeFiles/test_req_correlate.dir/test_req_correlate.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_req_relaxed.dir/test_req_relaxed.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_req_relaxed.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_req_relaxed.cpp",
+  "output": "tests/CMakeFiles/test_req_relaxed.dir/test_req_relaxed.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_conflate.dir/test_conflate.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_conflate.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_conflate.cpp",
+  "output": "tests/CMakeFiles/test_conflate.dir/test_conflate.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_inproc_connect.dir/test_inproc_connect.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_inproc_connect.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_inproc_connect.cpp",
+  "output": "tests/CMakeFiles/test_inproc_connect.dir/test_inproc_connect.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_issue_566.dir/test_issue_566.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_issue_566.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_issue_566.cpp",
+  "output": "tests/CMakeFiles/test_issue_566.dir/test_issue_566.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_shutdown_stress.dir/test_shutdown_stress.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_shutdown_stress.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_shutdown_stress.cpp",
+  "output": "tests/CMakeFiles/test_shutdown_stress.dir/test_shutdown_stress.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_timeo.dir/test_timeo.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_timeo.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_timeo.cpp",
+  "output": "tests/CMakeFiles/test_timeo.dir/test_timeo.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_many_sockets.dir/test_many_sockets.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_many_sockets.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_many_sockets.cpp",
+  "output": "tests/CMakeFiles/test_many_sockets.dir/test_many_sockets.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_diffserv.dir/test_diffserv.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_diffserv.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_diffserv.cpp",
+  "output": "tests/CMakeFiles/test_diffserv.dir/test_diffserv.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_connect_rid.dir/test_connect_rid.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_connect_rid.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_connect_rid.cpp",
+  "output": "tests/CMakeFiles/test_connect_rid.dir/test_connect_rid.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_xpub_nodrop.dir/test_xpub_nodrop.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_xpub_nodrop.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_xpub_nodrop.cpp",
+  "output": "tests/CMakeFiles/test_xpub_nodrop.dir/test_xpub_nodrop.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_pub_invert_matching.dir/test_pub_invert_matching.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_pub_invert_matching.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_pub_invert_matching.cpp",
+  "output": "tests/CMakeFiles/test_pub_invert_matching.dir/test_pub_invert_matching.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_setsockopt.dir/test_setsockopt.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_setsockopt.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_setsockopt.cpp",
+  "output": "tests/CMakeFiles/test_setsockopt.dir/test_setsockopt.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_sockopt_hwm.dir/test_sockopt_hwm.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_sockopt_hwm.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_sockopt_hwm.cpp",
+  "output": "tests/CMakeFiles/test_sockopt_hwm.dir/test_sockopt_hwm.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_heartbeats.dir/test_heartbeats.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_heartbeats.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_heartbeats.cpp",
+  "output": "tests/CMakeFiles/test_heartbeats.dir/test_heartbeats.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_atomics.dir/test_atomics.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_atomics.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_atomics.cpp",
+  "output": "tests/CMakeFiles/test_atomics.dir/test_atomics.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_bind_src_address.dir/test_bind_src_address.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_bind_src_address.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_bind_src_address.cpp",
+  "output": "tests/CMakeFiles/test_bind_src_address.dir/test_bind_src_address.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_capabilities.dir/test_capabilities.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_capabilities.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_capabilities.cpp",
+  "output": "tests/CMakeFiles/test_capabilities.dir/test_capabilities.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_metadata.dir/test_metadata.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_metadata.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_metadata.cpp",
+  "output": "tests/CMakeFiles/test_metadata.dir/test_metadata.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_router_handover.dir/test_router_handover.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_router_handover.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_router_handover.cpp",
+  "output": "tests/CMakeFiles/test_router_handover.dir/test_router_handover.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_srcfd.dir/test_srcfd.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_srcfd.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_srcfd.cpp",
+  "output": "tests/CMakeFiles/test_srcfd.dir/test_srcfd.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_stream_timeout.dir/test_stream_timeout.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream_timeout.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream_timeout.cpp",
+  "output": "tests/CMakeFiles/test_stream_timeout.dir/test_stream_timeout.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_xpub_manual.dir/test_xpub_manual.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_xpub_manual.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_xpub_manual.cpp",
+  "output": "tests/CMakeFiles/test_xpub_manual.dir/test_xpub_manual.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_xpub_welcome_msg.dir/test_xpub_welcome_msg.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_xpub_welcome_msg.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_xpub_welcome_msg.cpp",
+  "output": "tests/CMakeFiles/test_xpub_welcome_msg.dir/test_xpub_welcome_msg.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_base85.dir/test_base85.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_base85.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_base85.cpp",
+  "output": "tests/CMakeFiles/test_base85.dir/test_base85.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_bind_after_connect_tcp.dir/test_bind_after_connect_tcp.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_bind_after_connect_tcp.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_bind_after_connect_tcp.cpp",
+  "output": "tests/CMakeFiles/test_bind_after_connect_tcp.dir/test_bind_after_connect_tcp.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_sodium.dir/test_sodium.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_sodium.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_sodium.cpp",
+  "output": "tests/CMakeFiles/test_sodium.dir/test_sodium.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_monitor.dir/test_monitor.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_monitor.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_monitor.cpp",
+  "output": "tests/CMakeFiles/test_monitor.dir/test_monitor.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_ipc_wildcard.dir/test_ipc_wildcard.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_ipc_wildcard.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_ipc_wildcard.cpp",
+  "output": "tests/CMakeFiles/test_ipc_wildcard.dir/test_ipc_wildcard.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_pair_ipc.dir/test_pair_ipc.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_pair_ipc.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_pair_ipc.cpp",
+  "output": "tests/CMakeFiles/test_pair_ipc.dir/test_pair_ipc.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_reqrep_ipc.dir/test_reqrep_ipc.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_reqrep_ipc.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_reqrep_ipc.cpp",
+  "output": "tests/CMakeFiles/test_reqrep_ipc.dir/test_reqrep_ipc.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_proxy.dir/test_proxy.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_proxy.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_proxy.cpp",
+  "output": "tests/CMakeFiles/test_proxy.dir/test_proxy.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_proxy_single_socket.dir/test_proxy_single_socket.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_proxy_single_socket.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_proxy_single_socket.cpp",
+  "output": "tests/CMakeFiles/test_proxy_single_socket.dir/test_proxy_single_socket.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_proxy_terminate.dir/test_proxy_terminate.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_proxy_terminate.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_proxy_terminate.cpp",
+  "output": "tests/CMakeFiles/test_proxy_terminate.dir/test_proxy_terminate.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_getsockopt_memset.dir/test_getsockopt_memset.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_getsockopt_memset.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_getsockopt_memset.cpp",
+  "output": "tests/CMakeFiles/test_getsockopt_memset.dir/test_getsockopt_memset.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_filter_ipc.dir/test_filter_ipc.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_filter_ipc.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_filter_ipc.cpp",
+  "output": "tests/CMakeFiles/test_filter_ipc.dir/test_filter_ipc.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_stream_exceeds_buffer.dir/test_stream_exceeds_buffer.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream_exceeds_buffer.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_stream_exceeds_buffer.cpp",
+  "output": "tests/CMakeFiles/test_stream_exceeds_buffer.dir/test_stream_exceeds_buffer.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_router_mandatory_hwm.dir/test_router_mandatory_hwm.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_router_mandatory_hwm.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_router_mandatory_hwm.cpp",
+  "output": "tests/CMakeFiles/test_router_mandatory_hwm.dir/test_router_mandatory_hwm.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_use_fd_ipc.dir/test_use_fd_ipc.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_use_fd_ipc.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_use_fd_ipc.cpp",
+  "output": "tests/CMakeFiles/test_use_fd_ipc.dir/test_use_fd_ipc.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_use_fd_tcp.dir/test_use_fd_tcp.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_use_fd_tcp.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_use_fd_tcp.cpp",
+  "output": "tests/CMakeFiles/test_use_fd_tcp.dir/test_use_fd_tcp.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_zmq_poll_fd.dir/test_zmq_poll_fd.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_zmq_poll_fd.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_zmq_poll_fd.cpp",
+  "output": "tests/CMakeFiles/test_zmq_poll_fd.dir/test_zmq_poll_fd.cpp.o"
+},
+{
+  "directory": "/Users/1ommy/Desktop/osi/build",
+  "command": "/usr/bin/clang++ -DZMQ_CUSTOM_PLATFORM_HPP -D_DARWIN_C_SOURCE -D_REENTRANT -D_THREAD_SAFE -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/include -I/Users/1ommy/Desktop/osi/build -I/Users/1ommy/Desktop/osi/zeromq-4.2.1/../include -F/Users/1ommy/Desktop/osi/build/lib  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o tests/CMakeFiles/test_fork.dir/test_fork.cpp.o -c /Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_fork.cpp",
+  "file": "/Users/1ommy/Desktop/osi/zeromq-4.2.1/tests/test_fork.cpp",
+  "output": "tests/CMakeFiles/test_fork.dir/test_fork.cpp.o"
+}
+]
