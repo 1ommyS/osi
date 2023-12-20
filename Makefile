@@ -1,31 +1,10 @@
-# Исходные файлы
-SRC = client.cpp server.cpp
+all: server client
 
-# Объектные файлы
-OBJ = $(SRC:.cpp=.o)
+server:
+	g++ server.cpp -lzmq -pthread  -o server  --std=c++17 -L /usr/local/include 
 
-# Выходной файл
-OUT = game
+client:
+	g++ client.cpp -lzmq -pthread -o client --std=c++17 -L /usr/local/include
 
-# Компилятор и флаги
-CC = g++
-FLAGS = -g -Wall -lzmq -pthread
-
-# Правило по умолчанию
-default: $(OUT)
-
-# Правило для компиляции
-.cpp.o:
-	$(CC) $(FLAGS) -c $< -o $@
-
-# Правило для линковки
-$(OUT): $(OBJ)
-	$(CC) $(FLAGS) -o $(OUT) $(OBJ)
-
-# Правило для запуска игры
-run: $(OUT)
-	./$(OUT)
-
-# Правило для очистки
 clean:
-	rm -f $(OBJ) $(OUT)
+	rm -rf server client
