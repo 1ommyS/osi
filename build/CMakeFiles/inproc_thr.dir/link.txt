@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++  -std=gnu++11 -Wall -Wextra -Wno-long-long -Wno-uninitialized -pedantic -g -rdynamic CMakeFiles/inproc_thr.dir/perf/inproc_thr.cpp.o -o bin/inproc_thr  -Wl,-rpath,/com.docker.devenvironments.code/build/lib: lib/libzmq.so.4.2.1 -lrt -lpthread -lrt 
